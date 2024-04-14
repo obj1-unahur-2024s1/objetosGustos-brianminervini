@@ -112,3 +112,74 @@ object placa{
 		return color
 	}
 }
+
+object arito{
+	
+	var peso = 180
+	var material = "cobre"
+	var color = "celeste"
+	
+	method peso(){
+		return peso
+	}
+	
+	method material(){
+		return material 
+	}
+	
+	method color(){
+		return color
+	}
+	
+	
+	
+}
+
+
+object banquito{
+	
+	var peso = 1700
+	var material = "madera"
+	var color = "naranja"
+	
+	method peso(){
+		return peso
+	}
+	
+	method material(){
+		return material 
+	}
+	
+	method color(){
+		return color
+	}
+	
+	method colorIndicar(indicarColor){
+		color = indicarColor
+	}
+	
+}
+
+object cajita{
+	
+	var peso = 400
+	var material = "cobre"
+	var color = "rojo"
+	
+	method peso(){
+		return peso
+	}
+	
+	method material(){
+		return material 
+	}
+	
+	method color(){
+		return color
+	}
+	
+	method objetoInterior(objeto){
+		peso = peso + objeto.peso()
+	}
+	
+}
